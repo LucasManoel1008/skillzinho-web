@@ -1,8 +1,11 @@
+header{
+    border: 1px solid gray;
+}
 .content{
     height: 100%;
 }
 .leftNavBar{
-    background-color: aqua;
+    border: 1px solid gray;
     padding: 20px;
     height: 100vh;
 }

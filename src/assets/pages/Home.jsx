@@ -11,6 +11,9 @@ function Home() {
  
   return (
     <div>
+      <header className='text-center'>
+        <h1 >Skillzinho</h1>
+      </header>
       <div className={styles.content}>
         <Tab.Container id='left-tabs' defaultActiveKey='home'>
           <Row>
