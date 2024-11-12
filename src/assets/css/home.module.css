@@ -1,0 +1,8 @@
+.content{
+    height: 100%;
+}
+.leftNavBar{
+    background-color: aqua;
+    padding: 20px;
+    height: 100vh;
+}
