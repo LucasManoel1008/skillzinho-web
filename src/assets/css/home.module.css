@@ -1,11 +1,27 @@
 header{
-    border: 1px solid gray;
+    background-color:black;
+    color: white;
+    border-bottom : 1px solid rgb(119, 119, 119);
+}
+header h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    margin: 0;
+}
+a  {
+    color: rgb(208, 208, 247) !important;
+    text-decoration: none;
 }
 .content{
     height: 100%;
+   background-color: black;
 }
 .leftNavBar{
-    border: 1px solid gray;
+    border-top: none;
     padding: 20px;
     height: 100vh;
+    width: clamp(220px, 20%, 300px);
+    border-right: 1px solid rgb(119, 119, 119);
 }
+
